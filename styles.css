@@ -1,0 +1,133 @@
+/* font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p,
+a,
+input,
+button,
+label{
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: #252525;
+}
+
+.background-card{
+    width: 365px;
+    margin: 5% auto;
+    border-radius: 20px;
+    background-image: linear-gradient(135deg, #80D2E6, #8A72BE)  ;
+}
+
+/* search section */
+
+.search{
+    width: 80%;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar{
+    background-color: #ffffff50;
+    color:#252525;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 80%;
+    margin-right: 20px;
+
+}
+
+.search-button{
+    background-color: #ffffff50;
+    border-radius: 45%;
+    height: 38px;
+    width: 38px;
+}
+
+.search-button > img{
+    height: 16px;
+    width: 16px;
+    padding: 10px;
+}
+
+.city-weather{
+    display: none;
+}
+
+.error-text{
+    display: none;
+    font-weight: bold;
+    position: absolute;
+    color: #9c0000;
+    font-size: .60rem;
+    padding-top:4px;
+    padding-left: 5px;
+}
+
+/* weather display section */
+
+.weather-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.weather-details{
+    color: #ffffffd0;
+    font-size: 1.5rem;
+}
+
+.weather-details > h1{
+    color: #ffffff;
+}
+
+.weather-details > h2{
+    text-transform: capitalize;
+}
+/* humidity and wind display section */
+
+.humidity-wind-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px 20px;
+}
+
+.humidity, 
+.wind-speed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.humidity > img, 
+.wind-speed > img{
+    height: 60px;
+    margin-bottom: 20px;
+}

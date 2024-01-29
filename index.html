@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>City Weather checker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-card">
+        <div class="search">
+            <div>
+                <input type="text" placeholder="Enter City Name" class="search-bar">
+                <p class="error-text">*Please enter a valid name</p>
+            </div>
+            <button type="button" class="search-button"><img src="/images/search.png" alt=""></button>
+        </div>
+        
+
+        <div class="city-weather">
+            <div class="weather-display">
+                <img id="weather-icon" src="images/clear.png" alt="">
+                <div class="weather-details">
+                    <h1>20°c</h1>
+                    <h2>Chicago</h2>
+                </div>
+            </div>
+    
+            <div class="humidity-wind-section">
+                <div class="humidity">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <h3>00%</h3>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+        
+                <div class="wind-speed">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <h3>5.66 km/h</h3>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
