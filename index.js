@@ -42,7 +42,7 @@ async function getWeather(cityName){
             document.querySelector('#weather-icon').src = 'images/rain.png';
         }
         else if (weather === 'Snow'){
-            document.querySelector('#weather-icon').src = '/images/snow.png';
+            document.querySelector('#weather-icon').src = 'images/snow.png';
         }
         document.querySelector('.error-text').style.display = "none";
         document.querySelector('.city-weather').style.display = "block"; 
