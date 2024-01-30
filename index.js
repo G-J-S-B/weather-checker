@@ -24,22 +24,22 @@ async function getWeather(cityName){
         document.querySelector('.wind-speed div h3').innerHTML = windSpeed + ' km/h';
 
         if (weather === 'Clear'){
-            document.querySelector('#weather-icon').src = '/images/clear.png';
+            document.querySelector('#weather-icon').src = 'images/clear.png';
         }
         else if (weather == 'Clouds'){
-            document.querySelector('#weather-icon').src = '/images/clouds.png';
+            document.querySelector('#weather-icon').src = 'images/clouds.png';
         }
         else if (weather === 'Drizzle'){
-            document.querySelector('#weather-icon').src = '/images/drizzle.png';
+            document.querySelector('#weather-icon').src = 'images/drizzle.png';
         }
         else if (weather === 'Humidity'){
-            document.querySelector('#weather-icon').src = '/images/humidity.png';
+            document.querySelector('#weather-icon').src = 'images/humidity.png';
         }
         else if (weather === 'Mist'){
-            document.querySelector('#weather-icon').src = '/images/mist.png';
+            document.querySelector('#weather-icon').src = 'images/mist.png';
         }
         else if (weather === 'Rain'){
-            document.querySelector('#weather-icon').src = '/images/rain.png';
+            document.querySelector('#weather-icon').src = 'images/rain.png';
         }
         else if (weather === 'Snow'){
             document.querySelector('#weather-icon').src = '/images/snow.png';
